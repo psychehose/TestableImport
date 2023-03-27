@@ -24,8 +24,8 @@ final class TestableImportTests: XCTestCase {
     try super.tearDownWithError()
   }
 
-  func testExample() throws {
-
+  func testPrintText() throws {
+    debugPrint(sut.text)
   }
 
   func testPerformanceExample() throws {

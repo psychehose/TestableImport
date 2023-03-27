@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
 
-  private let text: String
+  let text: String
 
   init(text: String) {
     self.text = text

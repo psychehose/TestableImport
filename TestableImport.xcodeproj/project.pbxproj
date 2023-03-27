@@ -494,6 +494,7 @@
 		};
 		7725813E29D1F95500E9FC0E /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7725814C29D1FA0A00E9FC0E /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
