@@ -10,11 +10,18 @@ import XCTest
 
 final class TestableImportTests: XCTestCase {
 
+  var sut: ViewController!
+
 
   override func setUpWithError() throws {
+    try super.setUpWithError()
+
+    sut = ViewController(text: "Hola")
   }
 
   override func tearDownWithError() throws {
+    sut = nil
+    try super.tearDownWithError()
   }
 
   func testExample() throws {
