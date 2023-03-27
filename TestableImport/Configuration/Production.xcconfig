@@ -1,0 +1,10 @@
+//
+//  Production.xcconfig
+//  TestableImport
+//
+//  Created by 김호세 on 2023/03/28.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PRODUCT_BUNDLE_IDENTIFIER = com.dev.hose.TestableImport
